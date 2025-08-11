@@ -88,14 +88,12 @@ npm run dev
 
 Teste os endpoints usando ferramentas como Postman ou Insomnia
 
-Sobre o Projeto
-O método de busca verificar se a introdução enviada pelo usuário corresponde exatamente (ignorando maiúsculas/minúsculas) a uma piada cadastrada.
+## **Sobre o Projeto**
+O método de busca verifica se a introdução enviada pelo usuário corresponde exatamente (ignorando maiúsculas/minúsculas) a uma piada cadastrada.
 
 O método de piada aleatória utiliza o array de piadas para retornar uma delas de forma aleatória.
 
 O código está escrito em TypeScript, garantindo tipagem estática e melhor manutenção.
-
----
 
 ## **Autor**
 
