@@ -9,6 +9,16 @@ const app = express();
 app.use(express.json());
 app.use('/api', jokesRouter)
 
+app.get('/', (request:Request, response:Response) => {
+  response.send({
+    message: '🎉 Bem-vindo à API de Piadas!',
+    endpoints: {
+      random: '/jokes/random',
+      byIntroduction: '/jokes/introduction (POST)',
+    }
+  });
+});
+
 
 const port=process.env.PORT
 
