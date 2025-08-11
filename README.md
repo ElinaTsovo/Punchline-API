@@ -1,8 +1,8 @@
 # API de Piadas em TypeScript
 
-Esta API simples, construída com Node.js, Express e TypeScript, permite:  
+Esta API foi desenvolvida em Node.js, Express e TypeScript, permite:  
 
-- Buscar uma piada pela introdução exata (case-insensitive)  
+- Buscar uma piada pela introdução exata 
 - Retornar uma piada aleatória  
 
 ---
@@ -76,7 +76,7 @@ Exemplo de retorno:
   }
 }
 
-
+---
 Como Executar
 Clone o repositório
 
