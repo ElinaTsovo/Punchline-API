@@ -10,6 +10,15 @@ const jokes_route_1 = require("./jokes.route");
 const app = (0, express_1.default)();
 app.use(express_1.default.json());
 app.use('/api', jokes_route_1.jokesRouter);
+app.get('/', (request, response) => {
+    response.send({
+        message: '🎉 Bem-vindo à API de Piadas!',
+        endpoints: {
+            random: '/jokes/random',
+            byIntroduction: '/jokes/introduction (POST)',
+        }
+    });
+});
 const port = process.env.PORT;
 app.get('/piada', (request, response) => {
 });
